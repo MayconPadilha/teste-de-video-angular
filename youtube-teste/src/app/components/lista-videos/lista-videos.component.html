@@ -1,0 +1,11 @@
+<p>aqui a lista de videos</p>
+
+<div class="lista-videos">
+  <app-card-video *ngFor="let video of videos"
+  [title]="video.title"
+  [url]="video.url"
+  [imagem]="video.imagem" ></app-card-video>
+</div>
+
+
+
